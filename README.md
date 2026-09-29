@@ -44,7 +44,7 @@ The dashboard is structured into a logical 3-tier layout for seamless data explo
 
 ## Dashboard Preview
 
-![Chocolate Sales Dashboard](Dashboard_Screen.png)
+![Chocolate Sales Dashboard](Dashboard_Screen.png?v=2)
 
 ## Key Insights & Actionable Recommendations
 
