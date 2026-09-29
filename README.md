@@ -53,7 +53,7 @@ The dashboard is structured into a logical 3-tier layout for seamless data explo
 - **Key Finding:** Over 76% of revenue (EGP 155M) is driven by just 34% of orders (106 high-value transactions), while the remaining 66% generates only 24% of sales.
 - **Data Context:** November's low figure (EGP 9M) is due to data truncation on Nov 11th, not a demand drop.
 - **Recommended Actions:**
-  - Implement dedicated retention strategies for top B2B buyers to safeguard core sales.
+  - Implement dedicated retention strategies for top clients to safeguard core sales.
   - Set a Minimum Order Quantity or offer product bundles to optimize handling costs for smaller transactions.
 
 ### 2. Geographic Market Concentration
