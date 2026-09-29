@@ -50,7 +50,7 @@ The dashboard is structured into a logical 3-tier layout for seamless data explo
 
 ### 1. High Sales Concentration
 
-- **Key Finding:** 76.2% of total sales (EGP 155.2M) is driven by just 33.6% of orders (106 High-Value transactions). The remaining 66.4% of order volume generates only 23.8% of sales.
+- **Key Finding:** Over 76% of revenue (EGP 155M) is driven by just 34% of orders (106 high-value transactions), while the remaining 66% generates only 24% of sales.
 - **Data Context:** November's low figure (EGP 9M) is due to data truncation on Nov 11th, not a demand drop.
 - **Recommended Actions:**
   - Implement dedicated retention strategies for top B2B buyers to safeguard core sales.
@@ -58,7 +58,7 @@ The dashboard is structured into a logical 3-tier layout for seamless data explo
 
 ### 2. Geographic Market Concentration
 
-- **Key Finding:** Sharm El Sheikh and Al Sharqia drive ~45% of total sales, while Al Giza lags at 11%.
+- **Key Finding:** Sharm El Sheikh and Al Sharqia drive 45% of total sales, while Al Giza lags at 11%.
 - **Recommended Actions:**
   - Prioritize inventory allocation and targeted campaigns in top regional hubs.
   - Evaluate distribution bottlenecks in lower-performing regions like Al Giza.
