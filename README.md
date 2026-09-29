@@ -65,7 +65,7 @@ The dashboard is structured into a logical 3-tier layout for seamless data explo
 
 ### 3. Product Pricing & Anomaly Analysis
 
-- **Key Finding:** High-priced items drive top sales—6 of the top 10 products are priced above EGP 70k (e.g., `70% Dark Bites`, `Caramel Stuffed Bars`). However, `White Choc` presents a clear anomaly: priced similarly (~80k) but ranks in the bottom 5.
+- **Key Finding:** Premium items drive core revenue, with most top-performing products priced above EGP 70k (e.g., `70% Dark Bites`, `Caramel Stuffed Bars`). However, `White Choc` presents a clear anomaly: priced similarly (~80k) but ranks in the bottom 5.
 - **Recommended Actions:**
   - Focus marketing and supply on top-performing premium SKUs (`70% Dark Bites`, `Caramel Stuffed Bars`).
   - Investigate `White Choc` to identify whether low performance stems from flavor preference or stock availability.
