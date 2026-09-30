@@ -6,13 +6,13 @@ This project evaluates the 2023 sales performance for a chocolate production com
 
 ## Business Requirements
 
-- **Transaction Classification:** Categorize sales transactions into high vs. low performance relative to the overall average sales value.
+- **Transaction Classification:** Categorize sales transactions into high vs low performance relative to the overall average sales value.
 - **Monthly Trend Analysis:** Identify monthly sales patterns, highlighting peak and low-performing periods.
 - **Regional Breakdown:** Analyze sales performance across different geographic regions to assess market concentration.
 
 ## Data Cleaning & Transformation (Power Query)
 
-- **Exploratory Analysis:** Reviewed dataset metadata and column definitions to align transformation steps with business requirements.
+- **Exploratory Analysis:** Reviewed dataset meta data and column definitions to align transformation steps with business requirements.
 - **Deduplication & Data Types:** Identified and removed duplicate records based on `Order-ID` and ensured appropriate data types (Dates, Integers, Text, Currency).
 - **Text Standardization:** Applied `Trim` and `Capitalize Each Word` on `Sales Person` and `Geography` columns, resolving spelling variations across regions.
 - **Calculated Attributes:** Created `Month`, `Quarter`, and `Year` attributes, along with a row-level `Total` sales column (`Units` \* `Amount`).
@@ -20,13 +20,13 @@ This project evaluates the 2023 sales performance for a chocolate production com
 ## Data Modeling & DAX Implementation
 
 - **Transaction Classification:** Built a calculated column (`Sale Performance`) to classify orders into `High Value` vs. `Low Value` based on average transaction thresholds.
-- **Core KPI Measures:** Created explicit DAX measures using measure branching to optimize calculation performance:
+- **Core KPI Measures:** Created DAX measures using measure branching to optimize calculation performance:
   - `Total Sales` = `SUM('Raw-data'[Total])`
   - `Units Sold` = `SUM('Raw-data'[Units])`
   - `Number of Orders` = `COUNTA('Raw-data'[Order-ID])`
   - `Average Order Value (AOV)` = `[Total Sales] / [Number of Orders]`
 
-## Dashboard Architecture & Layout
+## Dashboard Architecture
 
 The dashboard is structured into a logical 3-tier layout for seamless data exploration:
 
@@ -39,12 +39,12 @@ The dashboard is structured into a logical 3-tier layout for seamless data explo
   - `Region Sales` (Donut Chart): Highlights regional sales share across governorates.
 
 - **Bottom Tier (Micro Performance & Detailed Metrics):**
-  - `Top Sellers` (Horizontal Bar Chart): Ranks performance across the sales team.
-  - `Product Details` (Table Visual): Provides granular unit sales and sales metrics for all catalog items.
+  - `Top Sellers` (Clustered Bar Chart): Ranks performance across the sales team.
+  - `Product Details` (Table Visual): Provides granular unit sales and sales metrics for all items.
 
 ## Dashboard Preview
 
-![Chocolate Sales Dashboard](Dashboard_Screen.png?v=2)
+![Chocolate Sales Dashboard](Dashboard_Screen.png)
 
 ## Key Insights & Actionable Recommendations
 
